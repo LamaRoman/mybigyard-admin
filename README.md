@@ -1,6 +1,6 @@
-# Bhadama Admin
+# MyBigYard Admin
 
-Standalone admin dashboard for the Bhadama platform. Extracted from the main frontend so admin code no longer ships with the customer site.
+Standalone admin dashboard for the MyBigYard platform. Extracted from the main frontend so admin code no longer ships with the customer site.
 
 **Stack:** Next.js 16 (App Router), React 19, Tailwind CSS 4.
 
@@ -8,7 +8,7 @@ Standalone admin dashboard for the Bhadama platform. Extracted from the main fro
 
 ```bash
 npm install
-cp .env.example .env.local   # point NEXT_PUBLIC_API_URL at bhadama-backend
+cp .env.example .env.local   # point NEXT_PUBLIC_API_URL at mybigyard-backend
 npm run dev                  # http://localhost:3001
 ```
 
@@ -20,4 +20,4 @@ Overview metrics, user management, listings, bookings, reviews, moderation, feat
 
 ## Deploy
 
-Intended for a separate origin (e.g. `admin.bhadama.com`). `robots` is set to noindex. Restrict access further at the edge (IP allowlist / SSO) if possible.
+Intended for a separate origin (e.g. `admin.mybigyard.com`). `robots` is set to noindex. Restrict access further at the edge (IP allowlist / SSO) if possible.
